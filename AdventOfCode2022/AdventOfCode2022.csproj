@@ -11,10 +11,9 @@
 		<None Update="Inputs\day-one-input.txt">
 			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
 		</None>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="DayTwo\" />
+		<None Update="Inputs\day-two-input.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 </Project>

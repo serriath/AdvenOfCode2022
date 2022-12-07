@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using AdventOfCode2022.DayOne;
+using AdventOfCode2022.DayTwo;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("");
@@ -12,6 +13,14 @@ Console.WriteLine("Day One - Calorie Counting");
 Console.WriteLine($"Part 1  = {CalorieCounting.CountCalories()}");
 Console.WriteLine("");
 Console.WriteLine($"Part 2  = {CalorieCounting.CountTopThreeCalories()}");
+Console.WriteLine("");
+Console.WriteLine("-----------------------------------------------------------------------------");
+
+//day two
+Console.WriteLine("Day Two - Rock Paper Scissors");
+Console.WriteLine($"Part 1  = {RockPaperScissors.CalculateScore()}");
+Console.WriteLine("");
+Console.WriteLine($"Part 2  = {RockPaperScissors.CalculateSecondRoundScore()}");
 Console.WriteLine("");
 Console.WriteLine("-----------------------------------------------------------------------------");
 
