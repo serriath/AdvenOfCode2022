@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using AdventOfCode2022.DayFour;
 using AdventOfCode2022.DayOne;
 using AdventOfCode2022.DayThree;
 using AdventOfCode2022.DayTwo;
@@ -30,6 +31,14 @@ Console.WriteLine("Day Three - Rucksack Reorganization");
 Console.WriteLine($"Part 1  = {RucksackReorganization.GetSumOfDuplicateItems()}");
 Console.WriteLine("");
 Console.WriteLine($"Part 2  = {RucksackReorganization.GetSumOfGroupBadges()}");
+Console.WriteLine("");
+Console.WriteLine("-----------------------------------------------------------------------------");
+
+//day four
+Console.WriteLine("Day Four - Camp Cleanup");
+Console.WriteLine($"Part 1  = {SectionCleanup.CleanupDuplication()}");
+Console.WriteLine("");
+Console.WriteLine($"Part 2  = {SectionCleanup.CleanupOverlap()}");
 Console.WriteLine("");
 Console.WriteLine("-----------------------------------------------------------------------------");
 
